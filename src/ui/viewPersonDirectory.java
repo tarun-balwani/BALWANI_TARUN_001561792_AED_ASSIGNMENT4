@@ -342,7 +342,7 @@ public class viewPersonDirectory extends javax.swing.JPanel {
           ||txtFname.getText().isBlank() || txtFname.getText().isEmpty()
           ||txtLname.getText().isBlank() || txtLname.getText().isEmpty()
           ||txtHouse.getText().isBlank() || txtHouse.getText().isEmpty()
-         // || comboCommunity.getSelectedItem().toString().isBlank() || comboCommunity.getSelectedItem().toString().isEmpty()
+          || comboCommunity.getSelectedItem().toString() == "" || comboCommunity.getSelectedItem().toString()==""
                 ){
             JOptionPane.showMessageDialog(this, "Fields cannot be blank ");
             
@@ -432,7 +432,7 @@ public class viewPersonDirectory extends javax.swing.JPanel {
           ||txtFname.getText().isBlank() || txtFname.getText().isEmpty()
           ||txtLname.getText().isBlank() || txtLname.getText().isEmpty()
           ||txtHouse.getText().isBlank() || txtHouse.getText().isEmpty()
-         // || comboCommunity.getSelectedItem().toString().isBlank() || comboCommunity.getSelectedItem().toString().isEmpty()
+          ||comboCommunity.getSelectedItem().toString() == "" || comboCommunity.getSelectedItem().toString()==""
                 ){
             JOptionPane.showMessageDialog(this, "Fields cannot be blank ");
             
